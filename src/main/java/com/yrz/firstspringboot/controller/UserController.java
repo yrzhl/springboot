@@ -26,9 +26,13 @@ public class UserController {
 
         if (userRepository.save(user)){
             System.out.println("保存用户成功！"+user);
+            System.out.println();
         }
 
         return  user;
+
+
+
     }
 
 
