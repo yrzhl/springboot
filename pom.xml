@@ -9,6 +9,7 @@
     <modules>
         <module>web</module>
 		<module>model</module>
+		<module>persistence</module>
 	</modules>
     <packaging>pom</packaging>
 
