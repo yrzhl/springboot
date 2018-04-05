@@ -1,8 +1,9 @@
-package com.yrz.firstspringboot.repository;
+package com.yrz.repository;
 
 
 import com.yrz.firstspringboot.domain.User;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;

@@ -1,8 +1,8 @@
-package com.yrz.firstspringboot.config;
+package com.yrz.config;
 
 
 import com.yrz.firstspringboot.domain.User;
-import com.yrz.firstspringboot.repository.UserRepository;
+import com.yrz.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.yrz.firstspringboot;
+package com.yrz;
 
 public class Test {
 

@@ -1,8 +1,8 @@
-package com.yrz.firstspringboot.controller;
+package com.yrz.controller;
 
 
 import com.yrz.firstspringboot.domain.User;
-import com.yrz.firstspringboot.repository.UserRepository;
+import com.yrz.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,8 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @Autowired
+
     private UserRepository userRepository ;
+
+    @Autowired
+    public  void UserRepository(UserRepository userRepository){
+        this.userRepository = userRepository;
+    }
 
 
     @PostMapping("/person/save")
